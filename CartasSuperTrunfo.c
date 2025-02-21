@@ -20,9 +20,25 @@ int main() {
     printf("Área: %.2f km²\n", Area1);
     printf("PIB: %1f bilhôes de reais\n", PIB1);
     printf("Pontos Turísticos: %d\n", pontosturisticos1);
-
-
     
+
+
+    char Estado2 = 'B';
+    char Codigo2[20] = "B02";
+    char Cidade2[20] = "Amazonas";
+    int Populacao2 = 3.492;
+    float Area2 = 1.571;
+    float PIB2 = 43.19;
+    int pontosturisticos2 = 27;
+
+    printf("Estado: %c\n", Estado2);
+    printf("Codigo: %s\n", Codigo2);
+    printf("Cidade: %s\n", Cidade2);
+    printf("População: %d mil habitantes\n", Populacao2);
+    printf("Área: %.2f km²\n", Area2);
+    printf("PIB: %1f bilhôes de reais\n", PIB2);
+    printf("Pontos Turísticos: %d\n", pontosturisticos2);
+
 
     return 0;
 }
