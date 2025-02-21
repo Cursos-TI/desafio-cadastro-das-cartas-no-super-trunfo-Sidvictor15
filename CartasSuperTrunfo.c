@@ -21,7 +21,7 @@ int main() {
     printf("PIB: %1f bilhôes de reais\n", PIB1);
     printf("Pontos Turísticos: %d\n", pontosturisticos1);
     
-
+printf("\n");
 
     char Estado2 = 'B';
     char Codigo2[20] = "B02";
